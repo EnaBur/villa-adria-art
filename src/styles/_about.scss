@@ -1,0 +1,15 @@
+.aboutSection {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    p {
+        font-size: 18px;
+    }
+}

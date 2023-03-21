@@ -1,0 +1,18 @@
+.galery-body {
+    background-color: #333;
+}
+
+.galery {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 10%;
+    img {
+        width: 300px;
+        height: 300px;
+        margin-top: 25px;
+    }
+}
