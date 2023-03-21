@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/villa-adria-art/static/css/main.231cf243.css",
+    "main.js": "/villa-adria-art/static/js/main.5b0af177.js",
+    "static/media/3.jpg": "/villa-adria-art/static/media/3.ca7ef79f5056de409b8e.jpg",
+    "static/media/4.jpg": "/villa-adria-art/static/media/4.23075d55f183e4df679f.jpg",
+    "static/media/banner.jpg": "/villa-adria-art/static/media/banner.dce0b0e0a3ba7da7c722.jpg",
+    "static/media/6.jpg": "/villa-adria-art/static/media/6.036368b20b9bb432d8af.jpg",
+    "static/media/1.jpg": "/villa-adria-art/static/media/1.aa52bd55e966f4436726.jpg",
+    "static/media/5.jpg": "/villa-adria-art/static/media/5.ec7c2ed71df8a34b3fe9.jpg",
+    "static/media/2.jpg": "/villa-adria-art/static/media/2.b24428324443b07af039.jpg",
+    "static/media/logo.png": "/villa-adria-art/static/media/logo.b0fb926df9e34388e7e4.png",
+    "index.html": "/villa-adria-art/index.html",
+    "main.231cf243.css.map": "/villa-adria-art/static/css/main.231cf243.css.map",
+    "main.5b0af177.js.map": "/villa-adria-art/static/js/main.5b0af177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231cf243.css",
+    "static/js/main.5b0af177.js"
+  ]
+}
