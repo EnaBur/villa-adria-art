@@ -5,7 +5,6 @@ import Banner from './components/Banner';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import About from './components/About';
-import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <Banner></Banner>
       <About></About>
       <Gallery></Gallery>
-      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
