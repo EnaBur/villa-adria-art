@@ -1,12 +1,53 @@
 import React from "react";
+import Popup from "reactjs-popup";
+import { ScrollView } from 'react-native';
 
 const Banner = () => {
+
+    const Modal = () => (
+        <ScrollView style={{height: 100}}>
+            <Popup trigger={<button className="button-23"> Book now </button>} modal>
+                <div>
+                    
+                <form action="/action_page.php" class="form-container">
+                    <h1>Book Villa Adriart</h1>
+
+                    <label for="email"><b>Email</b></label>
+                    <br></br>
+                    <input type="text" placeholder="Enter Email" name="email" required />
+                    <br></br>
+                    <label for="name"><b>Name and Surname</b></label>
+                    <br></br>
+                    <input type="text" placeholder="Name and Surname" name="name" required />
+                    <br></br>
+                    <label for="date"><b>Date</b></label>
+                    <br></br>
+                    <input type="date" placeholder="Choose date" name="date" required />
+                    <br></br>
+                    <label for="message"><b>Leave a message for us</b></label>
+                    <br></br>
+                    <input type="textarea" placeholder="Leave a message for us" name="message" required />
+                    <br></br>
+                    <label for="number"><b>How many people will be staying?</b></label>
+                    <br></br>
+                    <input type="number" placeholder="0" name="number" required />
+
+                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+
+                </div> 
+            </Popup>
+        </ScrollView>
+    );
+
 
     return(
         <div className="banner">
             <h1>Experience Dalmatia</h1>
-            <div>
-                <button className="button-23"> <a href="https://www.booking.com/hotel/hr/unique-rural-villa-adriart-with-40m2-pool-jacuzzi.hr.html">Book now</a></button>
+            <div className="buttons">
+            {Modal()}
+                
             </div>
             
         </div>

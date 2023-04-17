@@ -25,8 +25,9 @@
     }
     button {
         transform: translate(5%);
-        background-color: #FFFFFF;
-        border: 1px solid #222222;
+        color: #FFFFFF;
+        background-color: #D9B38C;
+        border: 1px solid #D9B38C;
         border-radius: 8px;
         box-sizing: border-box;
         cursor: pointer;
@@ -46,13 +47,10 @@
         -webkit-user-select: none;
         width: auto;
 
-        a {
-            text-decoration: none;
-            color: #222222;
-        }
-
     }
 }
 
-
+.buttons button{
+    margin: 5px;
+}
   
