@@ -3,21 +3,7 @@
     background: #272f31;
     width: 50%;
     padding: 5px;
-  }
-  .popup-arrow {
-    color: #FFFFFF;
-  }
-  [role='tooltip'].popup-content {
-    width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
-  }
-  
-  .popup-overlay {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  [data-popup='tooltip'].popup-overlay {
-    background: transparent;
-  }
+}
 
 .form-popup {
     display: none;
@@ -26,35 +12,44 @@
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-  }
+}
   
   .form-container {
+    position: absolute;
     padding: 10px;
     background-color: white;
+    height: 600px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
   }
   
-  .form-container input[type=text], .form-container input[type=number] {
+  .form-container input[type=text], .form-container input[type=text] {
     width: 80%;
     padding: 15px;
-    margin: 5px 0 22px 45px;
+    margin: 5px 0 22px 4%;
     border: none;
     background: #f1f1f1;
   }
   
-  .form-container input[type=text]:focus, .form-container input[type=number]:focus {
+  .form-container input[type=text]:focus, .form-container input[type=text]:focus {
     background-color: #ddd;
     outline: none;
   }
 
-  .form-container input[type=text], .form-container input[type=date] {
+  .form-container input[type=date], .form-container input[type=date] {
     width: 80%;
     padding: 15px;
-    margin: 5px 0 22px 45px;
+    margin: 5px 0 22px 4%;
     border: none;
     background: #f1f1f1;
   }
   
-  .form-container input[type=text]:focus, .form-container input[type=date]:focus {
+  .form-container input[type=date]:focus, .form-container input[type=date]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -62,13 +57,26 @@
   .form-container input[type=textarea], .form-container input[type=textarea] {
     width: 80%;
     padding: 15px;
-    margin: 5px 0 22px 45px;
+    margin: 5px 0 22px 4%;
     border: none;
     background: #f1f1f1;
     height: 100px;
   }
   
   .form-container input[type=textarea]:focus, .form-container input[type=textarea]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .form-container input[type=number], .form-container input[type=number] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 4%;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-container input[type=number]:focus, .form-container input[type=number]:focus {
     background-color: #ddd;
     outline: none;
   }
@@ -81,7 +89,7 @@
     cursor: pointer;
     width: 85%;
     opacity: 0.8;
-    margin: 5px 0 22px 45px;
+    margin: 5px 0 22px 4%;
   }
   
   .form-container .cancel {
@@ -95,6 +103,6 @@
   form {
     label {
         padding: 15px;
-        margin: 5px 0 22px 45px;
+        margin: 5px 0 22px 4%;
     }
   }
